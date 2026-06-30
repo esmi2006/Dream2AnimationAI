@@ -14,13 +14,16 @@ requests>=2.31.0
 soundfile>=0.12.1    # required by Kokoro TTS output
 numpy>=1.24.0        # required by Kokoro
 
-# TTS (choose one or both)
-# Kokoro (best quality, local — recommended):
-#   pip install kokoro-onnx
-# pyttsx3 (system voices, fallback):
-pyttsx3>=2.90
+# ── TTS — primary engine: Kokoro (local, free, high quality) ─────────────────
+# CPU-only torch build (much smaller download than the default CUDA build,
+# important to stay within Streamlit Cloud's build size/time limits).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.1.0
+kokoro>=0.7.16
+misaki[en]>=0.7.16   # English grapheme-to-phoneme backend used by Kokoro
 
-# Optional: Kokoro TTS (uncomment to install)
-# kokoro-onnx>=0.3.0
+# ── TTS — fallback engine (used automatically if Kokoro fails to load) ──────
+# Requires the 'espeak'/'espeak-ng' system packages — see packages.txt.
+pyttsx3>=2.90
 
 # Logging / utilities (stdlib only, no extra packages needed)
