@@ -1,0 +1,83 @@
+{
+  "value": {
+    "profiles_text": "# 👥 Character Profiles\n\n## Pip\n- **Role:** protagonist\n- **Age / Gender:** 5-8 / male\n- **Personality:** timid, observant, sensitive, courageous, determined\n- **Appearance:** Wide, worried eyes; twitching nose; gentle, earnest expression.; Soft brown, short, slightly messy.; skin Pale brown fur with cream underbelly.; None\n- **Visual DNA:** `Pip, 5-8 year old male, Small, scrawny rabbit, hunched posture, becomes upright and confident., Wide, worried eyes; twitching nose; gentle, earnest expression., Soft brown, short, slightly messy., skin tone: Pale brown fur with cream underbelly., wearing None`\n- **TTS Voice:** `am_adam`\n\n## Great Owl\n- **Role:** supporting\n- **Age / Gender:** 70-80 / male\n- **Personality:** stoic, wise, traditional, dismissive, authoritative\n- **Appearance:** Deep-set, golden eyes, solemn expression, stern beak.; Feathery tufts, dark brown and grey.; skin Variegated grey-brown feathers.; None\n- **Visual DNA:** `Great Owl, 70-80 year old male, Large, broad-shouldered, imposing, always perched majestically., Deep-set, golden eyes, solemn expression, stern beak., Feathery tufts, dark brown and grey., skin tone: Variegated grey-brown feathers., wearing None`\n- **TTS Voice:** `am_onyx`\n\n## Barnaby\n- **Role:** supporting\n- **Age / Gender:** 45-55 / male\n- **Personality:** gruff, stubborn, strong, practical, loyal\n- **Appearance:** Blunt snout, small, watchful eyes, perpetually grumpy expression.; Coarse black fur with signature white badger stripes.; skin Black and white patterned fur.; None\n- **Visual DNA:** `Barnaby, 45-55 year old male, Muscular, stout build, powerful paws, sturdy, slightly hunched., Blunt snout, small, watchful eyes, perpetually grumpy expression., Coarse black fur with signature white badger stripes., skin tone: Black and white patterned fur., wearing None`\n- **TTS Voice:** `am_michael`\n\n## Luna\n- **Role:** supporting\n- **Age / Gender:** 18-22 / female\n- **Personality:** quick-witted, flighty, energetic, curious, resourceful\n- **Appearance:** Bright, inquisitive eyes; pointed muzzle; often curious or mischievous.; Fluffy, reddish-brown fur, very bushy tail.; skin Warm reddish-brown fur with cream belly.; None\n- **Visual DNA:** `Luna, 18-22 year old female, Slender, agile, always twitching, darting movements., Bright, inquisitive eyes; pointed muzzle; often curious or mischievous., Fluffy, reddish-brown fur, very bushy tail., skin tone: Warm reddish-brown fur with cream belly., wearing None`\n- **TTS Voice:** `af_sky`\n",
+    "characters": [
+      {
+        "name": "Pip",
+        "role": "protagonist",
+        "gender": "male",
+        "age": "5-8",
+        "voice_gender": "male",
+        "voice_age": "child",
+        "personality": "timid, observant, sensitive, courageous, determined",
+        "appearance": {
+          "body": "Small, scrawny rabbit, hunched posture, becomes upright and confident.",
+          "face": "Wide, worried eyes; twitching nose; gentle, earnest expression.",
+          "hair": "Soft brown, short, slightly messy.",
+          "skin_tone": "Pale brown fur with cream underbelly.",
+          "clothes": "None",
+          "accessories": "none"
+        },
+        "tts_voice": "am_adam",
+        "visual_dna": "Pip, 5-8 year old male, Small, scrawny rabbit, hunched posture, becomes upright and confident., Wide, worried eyes; twitching nose; gentle, earnest expression., Soft brown, short, slightly messy., skin tone: Pale brown fur with cream underbelly., wearing None"
+      },
+      {
+        "name": "Great Owl",
+        "role": "supporting",
+        "gender": "male",
+        "age": "70-80",
+        "voice_gender": "male",
+        "voice_age": "elder",
+        "personality": "stoic, wise, traditional, dismissive, authoritative",
+        "appearance": {
+          "body": "Large, broad-shouldered, imposing, always perched majestically.",
+          "face": "Deep-set, golden eyes, solemn expression, stern beak.",
+          "hair": "Feathery tufts, dark brown and grey.",
+          "skin_tone": "Variegated grey-brown feathers.",
+          "clothes": "None",
+          "accessories": "none"
+        },
+        "tts_voice": "am_onyx",
+        "visual_dna": "Great Owl, 70-80 year old male, Large, broad-shouldered, imposing, always perched majestically., Deep-set, golden eyes, solemn expression, stern beak., Feathery tufts, dark brown and grey., skin tone: Variegated grey-brown feathers., wearing None"
+      },
+      {
+        "name": "Barnaby",
+        "role": "supporting",
+        "gender": "male",
+        "age": "45-55",
+        "voice_gender": "male",
+        "voice_age": "adult",
+        "personality": "gruff, stubborn, strong, practical, loyal",
+        "appearance": {
+          "body": "Muscular, stout build, powerful paws, sturdy, slightly hunched.",
+          "face": "Blunt snout, small, watchful eyes, perpetually grumpy expression.",
+          "hair": "Coarse black fur with signature white badger stripes.",
+          "skin_tone": "Black and white patterned fur.",
+          "clothes": "None",
+          "accessories": "none"
+        },
+        "tts_voice": "am_michael",
+        "visual_dna": "Barnaby, 45-55 year old male, Muscular, stout build, powerful paws, sturdy, slightly hunched., Blunt snout, small, watchful eyes, perpetually grumpy expression., Coarse black fur with signature white badger stripes., skin tone: Black and white patterned fur., wearing None"
+      },
+      {
+        "name": "Luna",
+        "role": "supporting",
+        "gender": "female",
+        "age": "18-22",
+        "voice_gender": "female",
+        "voice_age": "young",
+        "personality": "quick-witted, flighty, energetic, curious, resourceful",
+        "appearance": {
+          "body": "Slender, agile, always twitching, darting movements.",
+          "face": "Bright, inquisitive eyes; pointed muzzle; often curious or mischievous.",
+          "hair": "Fluffy, reddish-brown fur, very bushy tail.",
+          "skin_tone": "Warm reddish-brown fur with cream belly.",
+          "clothes": "None",
+          "accessories": "none"
+        },
+        "tts_voice": "af_sky",
+        "visual_dna": "Luna, 18-22 year old female, Slender, agile, always twitching, darting movements., Bright, inquisitive eyes; pointed muzzle; often curious or mischievous., Fluffy, reddish-brown fur, very bushy tail., skin tone: Warm reddish-brown fur with cream belly., wearing None"
+      }
+    ]
+  }
+}

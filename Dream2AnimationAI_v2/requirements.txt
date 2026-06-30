@@ -1,0 +1,26 @@
+# Dream2Animation AI — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core AI
+google-generativeai>=0.8.0
+
+# Web framework
+streamlit>=1.35.0
+
+# HTTP requests (image + music APIs)
+requests>=2.31.0
+
+# Audio I/O
+soundfile>=0.12.1    # required by Kokoro TTS output
+numpy>=1.24.0        # required by Kokoro
+
+# TTS (choose one or both)
+# Kokoro (best quality, local — recommended):
+#   pip install kokoro-onnx
+# pyttsx3 (system voices, fallback):
+pyttsx3>=2.90
+
+# Optional: Kokoro TTS (uncomment to install)
+# kokoro-onnx>=0.3.0
+
+# Logging / utilities (stdlib only, no extra packages needed)

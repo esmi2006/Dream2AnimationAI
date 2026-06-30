@@ -1,0 +1,97 @@
+{
+  "value": {
+    "display_text": "# 🎥 Motion & Camera Plan\n\n---\n## Scene 1\n**🏃 Movement:** Pip hunches, cautiously peeks from burrow entrance, nose twitching intensely. He then slowly withdraws, ears flattened slightly in apprehension.\n**😊 Expressions:** Pip's eyes dart nervously, brow furrowed in mild concern. His nose constantly twitches, sensing unseen changes.\n**🌿 Background:** Forest leaves rustle softly, subtle shadows lengthen, and distant flora sways slightly with an unnerving stillness.\n**💡 Lighting:** Dappled sunlight filters through the canopy, subtly dimming to a more somber, muted tone.\n**✨ FX:** none\n**⏱ Duration:** 6s\n**📷 Shot:** Wide Shot | **Angle:** Eye Level | **Move:** Dolly In\n**🔭 Lens:** 35mm | **Focus:** Shallow DOF | **Cut:** Fade In\n\n---\n## Scene 2\n**🏃 Movement:** Pip shuffles his paws nervously, occasionally gesturing towards the forest. Great Owl remains perched, then slowly extends a wing dismissively.\n**😊 Expressions:** Pip's expression shifts from anxious hope to clear dejection. Great Owl's gaze is stern, unyielding, with a hint of condescension.\n**🌿 Background:** Ancient tree branches sway gently in a nonexistent breeze, a few solitary leaves drift slowly down.\n**💡 Lighting:** Morning light filters through the leaves, subtly dimming on Pip as the Owl gestures.\n**✨ FX:** none\n**⏱ Duration:** 7s\n**📷 Shot:** Close-up | **Angle:** Low Angle | **Move:** Crane Up\n**🔭 Lens:** 85mm | **Focus:** Shallow DOF | **Cut:** Cut\n\n---\n## Scene 3\n**🏃 Movement:** Pip stands hesitantly, making small, pleading gestures. Barnaby leans on a rock, powerful paws crossed, his posture radiating stubbornness.\n**😊 Expressions:** Pip's face shows hopeful urgency, bordering on desperation. Barnaby's expresses skepticism, a deep grunt, and mild annoyance.\n**🌿 Background:** Misty air curls from Barnaby's steaming mug, mosses on rocks subtly shift, and dust motes drift in the den's entrance.\n**💡 Lighting:** Dim interior den light contrasts with the slightly brighter, diffused light from outside.\n**✨ FX:** none\n**⏱ Duration:** 8s\n**📷 Shot:** Medium Shot | **Angle:** High Angle | **Move:** Orbit\n**🔭 Lens:** 50mm | **Focus:** Deep Focus | **Cut:** Cut\n\n---\n## Scene 4\n**🏃 Movement:** Pip leads, hunched and twitching his ears, cautiously along the path. Barnaby follows, sturdy and watchful. Luna darts ahead, scouting.\n**😊 Expressions:** Pip's ears constantly twitch, eyes wide and alert. Barnaby maintains a grim, watchful gaze. Luna's keen eyes scan surroundings intently.\n**🌿 Background:** Overgrown path features still leaves, dust motes slowly drift, and small, unseen creatures move subtly off-screen.\n**💡 Lighting:** Dappled sunlight pierces the canopy, creating dynamic, slow-moving shadow patterns on the path.\n**✨ FX:** none\n**⏱ Duration:** 9s\n**📷 Shot:** Medium Shot | **Angle:** Eye Level | **Move:** Tracking\n**🔭 Lens:** 35mm | **Focus:** Deep Focus | **Cut:** Cut\n\n---\n## Scene 5\n**🏃 Movement:** Pip recoils dramatically, overwhelmed. Barnaby leans forward to inspect the cavern, a grimace fixed on his face. Luna peers inside, tail twitching.\n**😊 Expressions:** Pip's eyes are wide with primal fear. Barnaby shows grim determination and curiosity. Luna's expression is nervous but curious.\n**🌿 Background:** Gaping cavern entrance, ancient rock formations, and subtle, shimmering dust motes suspended in the still air.\n**💡 Lighting:** Harsh exterior light meets the profound darkness of the cavern, creating a stark, high-contrast visual.\n**✨ FX:** none\n**⏱ Duration:** 7s\n**📷 Shot:** Two-Shot | **Angle:** Low Angle | **Move:** Dolly Out\n**🔭 Lens:** 24mm | **Focus:** Deep Focus | **Cut:** Smash Cut\n\n---\n## Scene 6\n**🏃 Movement:** Pip stands upright, focused, deliberately tapping the quartz shard. Barnaby and Luna stand back, stunned, then lean in, amazed.\n**😊 Expressions:** Pip's face shows determined concentration. Barnaby's jaw drops in awe. Luna's eyes widen in pure amazement and joy.\n**🌿 Background:** Crystalline cavern walls visibly pulsate with light, dormant flora rapidly blossoms, and sparkling particles ascend from fissures.\n**💡 Lighting:** A dynamic burst of luminescent light erupts from the resonator, bathing the entire cavern in vibrant hues.\n**✨ FX:** Luminescent light wave, sparkling particles, sonic ripples, rapid flora growth, ethereal glow.\n**⏱ Duration:** 10s\n**📷 Shot:** Wide Shot | **Angle:** Eye Level | **Move:** Crane Up\n**🔭 Lens:** 24mm | **Focus:** Deep Focus | **Cut:** Fade Out\n",
+    "motion_plans": [
+      {
+        "scene_number": 1,
+        "character_movement": "Pip hunches, cautiously peeks from burrow entrance, nose twitching intensely. He then slowly withdraws, ears flattened slightly in apprehension.",
+        "facial_expression": "Pip's eyes dart nervously, brow furrowed in mild concern. His nose constantly twitches, sensing unseen changes.",
+        "background_animation": "Forest leaves rustle softly, subtle shadows lengthen, and distant flora sways slightly with an unnerving stillness.",
+        "lighting_animation": "Dappled sunlight filters through the canopy, subtly dimming to a more somber, muted tone.",
+        "special_effects": "none",
+        "animation_duration": "6",
+        "camera_shot": "Wide Shot",
+        "camera_angle": "Eye Level",
+        "camera_movement": "Dolly In",
+        "lens": "35mm",
+        "focus": "Shallow DOF",
+        "transition": "Fade In"
+      },
+      {
+        "scene_number": 2,
+        "character_movement": "Pip shuffles his paws nervously, occasionally gesturing towards the forest. Great Owl remains perched, then slowly extends a wing dismissively.",
+        "facial_expression": "Pip's expression shifts from anxious hope to clear dejection. Great Owl's gaze is stern, unyielding, with a hint of condescension.",
+        "background_animation": "Ancient tree branches sway gently in a nonexistent breeze, a few solitary leaves drift slowly down.",
+        "lighting_animation": "Morning light filters through the leaves, subtly dimming on Pip as the Owl gestures.",
+        "special_effects": "none",
+        "animation_duration": "7",
+        "camera_shot": "Close-up",
+        "camera_angle": "Low Angle",
+        "camera_movement": "Crane Up",
+        "lens": "85mm",
+        "focus": "Shallow DOF",
+        "transition": "Cut"
+      },
+      {
+        "scene_number": 3,
+        "character_movement": "Pip stands hesitantly, making small, pleading gestures. Barnaby leans on a rock, powerful paws crossed, his posture radiating stubbornness.",
+        "facial_expression": "Pip's face shows hopeful urgency, bordering on desperation. Barnaby's expresses skepticism, a deep grunt, and mild annoyance.",
+        "background_animation": "Misty air curls from Barnaby's steaming mug, mosses on rocks subtly shift, and dust motes drift in the den's entrance.",
+        "lighting_animation": "Dim interior den light contrasts with the slightly brighter, diffused light from outside.",
+        "special_effects": "none",
+        "animation_duration": "8",
+        "camera_shot": "Medium Shot",
+        "camera_angle": "High Angle",
+        "camera_movement": "Orbit",
+        "lens": "50mm",
+        "focus": "Deep Focus",
+        "transition": "Cut"
+      },
+      {
+        "scene_number": 4,
+        "character_movement": "Pip leads, hunched and twitching his ears, cautiously along the path. Barnaby follows, sturdy and watchful. Luna darts ahead, scouting.",
+        "facial_expression": "Pip's ears constantly twitch, eyes wide and alert. Barnaby maintains a grim, watchful gaze. Luna's keen eyes scan surroundings intently.",
+        "background_animation": "Overgrown path features still leaves, dust motes slowly drift, and small, unseen creatures move subtly off-screen.",
+        "lighting_animation": "Dappled sunlight pierces the canopy, creating dynamic, slow-moving shadow patterns on the path.",
+        "special_effects": "none",
+        "animation_duration": "9",
+        "camera_shot": "Medium Shot",
+        "camera_angle": "Eye Level",
+        "camera_movement": "Tracking",
+        "lens": "35mm",
+        "focus": "Deep Focus",
+        "transition": "Cut"
+      },
+      {
+        "scene_number": 5,
+        "character_movement": "Pip recoils dramatically, overwhelmed. Barnaby leans forward to inspect the cavern, a grimace fixed on his face. Luna peers inside, tail twitching.",
+        "facial_expression": "Pip's eyes are wide with primal fear. Barnaby shows grim determination and curiosity. Luna's expression is nervous but curious.",
+        "background_animation": "Gaping cavern entrance, ancient rock formations, and subtle, shimmering dust motes suspended in the still air.",
+        "lighting_animation": "Harsh exterior light meets the profound darkness of the cavern, creating a stark, high-contrast visual.",
+        "special_effects": "none",
+        "animation_duration": "7",
+        "camera_shot": "Two-Shot",
+        "camera_angle": "Low Angle",
+        "camera_movement": "Dolly Out",
+        "lens": "24mm",
+        "focus": "Deep Focus",
+        "transition": "Smash Cut"
+      },
+      {
+        "scene_number": 6,
+        "character_movement": "Pip stands upright, focused, deliberately tapping the quartz shard. Barnaby and Luna stand back, stunned, then lean in, amazed.",
+        "facial_expression": "Pip's face shows determined concentration. Barnaby's jaw drops in awe. Luna's eyes widen in pure amazement and joy.",
+        "background_animation": "Crystalline cavern walls visibly pulsate with light, dormant flora rapidly blossoms, and sparkling particles ascend from fissures.",
+        "lighting_animation": "A dynamic burst of luminescent light erupts from the resonator, bathing the entire cavern in vibrant hues.",
+        "special_effects": "Luminescent light wave, sparkling particles, sonic ripples, rapid flora growth, ethereal glow.",
+        "animation_duration": "10",
+        "camera_shot": "Wide Shot",
+        "camera_angle": "Eye Level",
+        "camera_movement": "Crane Up",
+        "lens": "24mm",
+        "focus": "Deep Focus",
+        "transition": "Fade Out"
+      }
+    ]
+  }
+}

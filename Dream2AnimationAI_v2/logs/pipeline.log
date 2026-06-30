@@ -1,0 +1,123 @@
+13:22:25  ERROR     asyncio  │  Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+13:22:40  INFO      Dream2AnimationAI  │  Starting pipeline: idea='a rabbit saves the forest' genre=Adventure audience=Kids
+13:22:40  INFO      Dream2AnimationAI  │  Generating story...
+13:22:41  WARNING   Dream2AnimationAI  │  Gemini attempt 1/3 failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+13:22:43  WARNING   Dream2AnimationAI  │  Gemini attempt 2/3 failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+13:22:47  WARNING   Dream2AnimationAI  │  Gemini attempt 3/3 failed: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+13:22:47  ERROR     Dream2AnimationAI  │  Gemini: all retries exhausted.
+13:24:58  INFO      Dream2AnimationAI  │  Starting pipeline: idea='a rabbit saves the forest' genre=Adventure audience=Kids
+13:24:58  INFO      Dream2AnimationAI  │  Generating story...
+13:25:17  INFO      Dream2AnimationAI  │  Cache set  [story]
+13:25:17  INFO      Dream2AnimationAI  │  Generating character profiles...
+13:25:32  INFO      Dream2AnimationAI  │  Cache set  [characters]
+13:25:32  INFO      Dream2AnimationAI  │  Analyzing story emotion...
+13:25:39  INFO      Dream2AnimationAI  │  Cache set  [emotion]
+13:25:39  INFO      Dream2AnimationAI  │  Generating director notes...
+13:25:58  INFO      Dream2AnimationAI  │  Cache set  [director_notes]
+13:25:58  INFO      Dream2AnimationAI  │  Generating 6-scene storyboard...
+13:26:18  INFO      Dream2AnimationAI  │  Cache set  [storyboard]
+13:26:18  INFO      Dream2AnimationAI  │  
+Scene 1/6: generating image...
+13:26:18  INFO      Dream2AnimationAI  │    Prompt: A small, scrawny 5-8 year old male rabbit, Pip, with soft brown, slightly messy fur and a cream underbelly, hunched caut...
+13:26:18  INFO      Dream2AnimationAI  │    Image request attempt 1/3...
+13:26:20  INFO      Dream2AnimationAI  │    ✅ Image saved → scenes\scene_01.png (77 KB)
+13:26:21  INFO      Dream2AnimationAI  │  
+Scene 2/6: generating image...
+13:26:21  INFO      Dream2AnimationAI  │    Prompt: A vast, ancient Great Oak, its bark dulling, serves as the Elder Council perch. Pip, a small, scrawny 5-8 year old male ...
+13:26:21  INFO      Dream2AnimationAI  │    Image request attempt 1/3...
+13:27:05  INFO      Dream2AnimationAI  │    ✅ Image saved → scenes\scene_02.png (83 KB)
+13:27:06  INFO      Dream2AnimationAI  │  
+Scene 3/6: generating image...
+13:27:06  INFO      Dream2AnimationAI  │    Prompt: Pip, a small, scrawny 5-8 year old male rabbit with soft brown fur and a cream underbelly, hunched and hesitant, faces B...
+13:27:06  INFO      Dream2AnimationAI  │    Image request attempt 1/3...
+13:27:50  INFO      Dream2AnimationAI  │    ✅ Image saved → scenes\scene_03.png (82 KB)
+13:27:51  INFO      Dream2AnimationAI  │  
+Scene 4/6: generating image...
+13:27:51  INFO      Dream2AnimationAI  │    Prompt: Pip, a small, scrawny 5-8 year old male rabbit with soft brown fur, hunched, leads the way. Barnaby, a muscular 45-55 ye...
+13:27:51  INFO      Dream2AnimationAI  │    Image request attempt 1/3...
+13:28:35  INFO      Dream2AnimationAI  │    ✅ Image saved → scenes\scene_04.png (79 KB)
+13:28:36  INFO      Dream2AnimationAI  │  
+Scene 5/6: generating image...
+13:28:36  INFO      Dream2AnimationAI  │    Prompt: An immense, gaping cavern entrance, carved from dark, smooth rock, dominates the scene. Pip, a small, scrawny 5-8 year o...
+13:28:36  INFO      Dream2AnimationAI  │    Image request attempt 1/3...
+13:29:20  INFO      Dream2AnimationAI  │    ✅ Image saved → scenes\scene_05.png (84 KB)
+13:29:21  INFO      Dream2AnimationAI  │  
+Scene 6/6: generating image...
+13:29:21  INFO      Dream2AnimationAI  │    Prompt: Inside the Mute Heart Cavern, an ancient, crystalline resonator pulses with muted energy. Pip, a small, scrawny 5-8 year...
+13:29:21  INFO      Dream2AnimationAI  │    Image request attempt 1/3...
+13:30:06  INFO      Dream2AnimationAI  │    ✅ Image saved → scenes\scene_06.png (76 KB)
+13:30:07  INFO      Dream2AnimationAI  │  
+✅ Generated 6/6 scene images.
+13:30:23  INFO      Dream2AnimationAI  │  Starting pipeline: idea='a rabbit saves the forest' genre=Adventure audience=Kids
+13:30:23  INFO      Dream2AnimationAI  │  Cache hit  [story]
+13:30:23  INFO      Dream2AnimationAI  │  Cache hit  [characters]
+13:30:23  INFO      Dream2AnimationAI  │  Cache hit  [emotion]
+13:30:23  INFO      Dream2AnimationAI  │  Cache hit  [director_notes]
+13:30:23  INFO      Dream2AnimationAI  │  Cache hit  [storyboard]
+13:30:23  INFO      Dream2AnimationAI  │  Scene 1/6: already exists, skipping.
+13:30:23  INFO      Dream2AnimationAI  │  Scene 2/6: already exists, skipping.
+13:30:23  INFO      Dream2AnimationAI  │  Scene 3/6: already exists, skipping.
+13:30:23  INFO      Dream2AnimationAI  │  Scene 4/6: already exists, skipping.
+13:30:23  INFO      Dream2AnimationAI  │  Scene 5/6: already exists, skipping.
+13:30:23  INFO      Dream2AnimationAI  │  Scene 6/6: already exists, skipping.
+13:30:23  INFO      Dream2AnimationAI  │  
+✅ Generated 6/6 scene images.
+13:31:26  INFO      Dream2AnimationAI  │  Generating motion & camera plan...
+13:31:44  INFO      Dream2AnimationAI  │  Motion raw response: 5258 chars
+13:31:44  INFO      Dream2AnimationAI  │  Cache set  [motion]
+13:31:57  INFO      Dream2AnimationAI  │  Extracted 6 dialogue lines across 6 scenes.
+13:32:04  INFO      Dream2AnimationAI  │  Voice map: {'Pip': 'am_adam', 'Great Owl': 'am_onyx', 'Barnaby': 'am_michael', 'Luna': 'af_sky'}
+13:32:04  INFO      Dream2AnimationAI  │  Cache set  [voice_map]
+13:34:30  INFO      Dream2AnimationAI  │  TTS engine: Kokoro
+13:34:30  INFO      Dream2AnimationAI  │  🎬 Generating voices for scene 1 (1 line(s))...
+13:34:30  INFO      Dream2AnimationAI  │  Loading Kokoro pipeline (lang_code='a')...
+13:34:31  INFO      httpx  │  HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+13:34:31  INFO      httpx  │  HTTP Request: HEAD https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+13:34:31  WARNING   huggingface_hub.utils._http  │  Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+13:34:32  INFO      httpx  │  HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/config.json "HTTP/1.1 200 OK"
+13:34:33  INFO      httpx  │  HTTP Request: HEAD https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/kokoro-v1_0.pth "HTTP/1.1 302 Found"
+13:34:45  INFO      httpx  │  HTTP Request: HEAD https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/voices/am_adam.pt "HTTP/1.1 302 Found"
+13:34:49  INFO      Dream2AnimationAI  │  Line 1 (Pip, voice=am_adam): 2.5s — (Whispering) It's... too quiet.
+13:34:49  INFO      Dream2AnimationAI  │  🎬 Generating voices for scene 2 (1 line(s))...
+13:34:55  INFO      Dream2AnimationAI  │  Line 2 (Pip, voice=am_adam): 5.2s — But Great Owl, the whispers... they're fading! The
+13:34:55  INFO      Dream2AnimationAI  │  🎬 Generating voices for scene 3 (1 line(s))...
+13:35:00  INFO      Dream2AnimationAI  │  Line 3 (Pip, voice=am_adam): 4.4s — The blight is real, Barnaby! Even your old oak loo
+13:35:00  INFO      Dream2AnimationAI  │  🎬 Generating voices for scene 4 (1 line(s))...
+13:35:00  INFO      httpx  │  HTTP Request: HEAD https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/voices/af_sky.pt "HTTP/1.1 302 Found"
+13:35:04  INFO      Dream2AnimationAI  │  Line 4 (Luna, voice=af_sky): 3.7s — Even the shortcuts feel longer when there's no cha
+13:35:04  INFO      Dream2AnimationAI  │  🎬 Generating voices for scene 5 (1 line(s))...
+13:35:09  INFO      Dream2AnimationAI  │  Line 5 (Pip, voice=am_adam): 4.1s — (Whispering) It's... it's like all the sound was s
+13:35:09  INFO      Dream2AnimationAI  │  🎬 Generating voices for scene 6 (1 line(s))...
+13:35:11  INFO      Dream2AnimationAI  │  Line 6 (Pip, voice=am_adam): 1.9s — (Softly) Listen.
+13:35:11  INFO      Dream2AnimationAI  │  ✅ movie_voice.wav → 25.3s total
