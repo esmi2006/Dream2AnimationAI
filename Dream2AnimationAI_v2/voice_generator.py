@@ -35,6 +35,7 @@ Public API
 import os
 import wave
 import struct
+import pyttsx3
 import hashlib
 from config import VOICES_DIR
 from logger import log
