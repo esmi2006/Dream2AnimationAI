@@ -14,16 +14,11 @@ requests>=2.31.0
 soundfile>=0.12.1    # required by Kokoro TTS output
 numpy>=1.24.0        # required by Kokoro
 
-# ── TTS — primary engine: Kokoro (local, free, high quality) ─────────────────
-# CPU-only torch build (much smaller download than the default CUDA build,
-# important to stay within Streamlit Cloud's build size/time limits).
---extra-index-url https://download.pytorch.org/whl/cpu
-torch>=2.1.0
-kokoro>=0.7.16
-misaki[en]>=0.7.16   # English grapheme-to-phoneme backend used by Kokoro
-
-# ── TTS — fallback engine (used automatically if Kokoro fails to load) ──────
-# Requires the 'espeak'/'espeak-ng' system packages — see packages.txt.
+# ── TTS engine ────────────────────────────────────────────────────────────────
+# Kokoro (torch-based) was tried but is too heavy / dependency-conflicting
+# for Streamlit Cloud's free tier — it broke the install entirely.
+# Using pyttsx3 (system voices) instead. Requires 'espeak'/'espeak-ng'
+# system packages — see packages.txt.
 pyttsx3>=2.90
 
 # Logging / utilities (stdlib only, no extra packages needed)
