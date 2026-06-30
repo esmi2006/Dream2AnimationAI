@@ -57,7 +57,6 @@ with st.sidebar:
         "🎞 Scene Images":   st.session_state.scene_images,
         "🎥 Motion Plan":    st.session_state.motion,
         "💬 Dialogues":      st.session_state.dialogues,
-        "🔊 Voice":          st.session_state.voice_result,
     }
     for label, val in status_map.items():
         icon = "✅" if val else "⏳"
