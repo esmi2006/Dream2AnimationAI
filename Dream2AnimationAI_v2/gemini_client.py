@@ -6,7 +6,7 @@ All modules should call `ask()` rather than creating their own model instances.
 """
 
 import time
-import google.generativeai as genai
+import google as genai
 from config import GEMINI_API_KEY, GEMINI_TEXT_MODEL, GEMINI_FAST_MODEL
 from logger import log
 
