@@ -22,7 +22,6 @@ from storyboard_generator import generate_storyboard
 from image_generator      import generate_scene_images
 from motion_generator     import generate_motion
 from dialogue_generator   import extract_dialogues
-from voice_generator      import generate_voice
 from config               import NUM_SCENES, MOVIE_PATH
 from logger               import log
 
@@ -186,43 +185,3 @@ if _scenes_ready:
             st.markdown(st.session_state.dialogues["script_text"])
         st.info(f"📝 {len(st.session_state.dialogues['lines'])} dialogue lines extracted.")
         st.divider()
-
-# ══════════════════════════════════════════════════════════════════════════════
-# STEP 4 — VOICE
-# ══════════════════════════════════════════════════════════════════════════════
-if st.session_state.dialogues and st.session_state.characters:
-    if st.button("🔊 Generate Character Voices"):
-        dialogue_lines = st.session_state.dialogues["lines"]
-        characters     = st.session_state.characters.get("characters", [])
-
-        with st.spinner("Generating character voices (Kokoro TTS)..."):
-            result = generate_voice(dialogue_lines, characters)
-            st.session_state.voice_result = result
-
-        st.header("🔊 Character Voices")
-
-        if result.get("voice_map"):
-            st.subheader("🎭 Voice Assignments")
-            rows = [{"Character": k, "Voice ID": v}
-                    for k, v in result["voice_map"].items()]
-            st.table(rows)
-
-        if result.get("line_files"):
-            st.subheader("🎙 Individual Lines")
-            for i, (path, meta) in enumerate(
-                zip(result["line_files"], result.get("line_metadata", [])), 1
-            ):
-                if os.path.exists(path):
-                    label = (f"Line {i} — {meta.get('character', '?')}: "
-                             f"{meta.get('text', '')[:60]}")
-                    st.caption(label)
-                    st.audio(path)
-
-        if result.get("movie_voice") and os.path.exists(result["movie_voice"]):
-            st.subheader("🎬 Merged Voice Track")
-            st.audio(result["movie_voice"])
-            st.success(f"✅ movie_voice.wav ready")
-        else:
-            st.warning("Voice merge failed. Check Kokoro/pyttsx3 installation.")
-        st.divider()
-
