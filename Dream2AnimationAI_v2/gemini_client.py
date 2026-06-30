@@ -6,13 +6,21 @@ All modules should call `ask()` rather than creating their own model instances.
 """
 
 import time
-import google as genai
+import google.generativeai as genai
 from config import GEMINI_API_KEY, GEMINI_TEXT_MODEL, GEMINI_FAST_MODEL
 from logger import log
 
+if not hasattr(genai, "configure"):
+    raise ImportError(
+        "Loaded the wrong 'google' package — 'google.generativeai' has no "
+        "'configure' attribute. This usually means a stale/conflicting "
+        "install on the deployment environment. Fix: in requirements.txt "
+        "pin 'google-generativeai==0.8.3' and 'google-ai-generativelanguage"
+        "==0.6.15', then on Streamlit Cloud use Manage app → Reboot app "
+        "(or delete the app and redeploy) to force a clean dependency install."
+    )
+
 genai.configure(api_key=GEMINI_API_KEY)
-print("API KEY:",GEMINI_API_KEY[:10])
-print("MODEL:",GEMINI_TEXT_MODEL)
 
 _text_model = genai.GenerativeModel(GEMINI_TEXT_MODEL)
 _fast_model = genai.GenerativeModel(GEMINI_FAST_MODEL)
