@@ -11,6 +11,8 @@ from config import GEMINI_API_KEY, GEMINI_TEXT_MODEL, GEMINI_FAST_MODEL
 from logger import log
 
 genai.configure(api_key=GEMINI_API_KEY)
+print("API KEY:",GEMINI_API_KEY[:10])
+print("MODEL:",GEMINI_TEXT_MODEL)
 
 _text_model = genai.GenerativeModel(GEMINI_TEXT_MODEL)
 _fast_model = genai.GenerativeModel(GEMINI_FAST_MODEL)
